@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    max-height: 300vh;
+}
+
+body {
+    background-color: coral;
+    font-size: large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.wrapper {
+    background-color: azure;
+    width: 40rem;
+    height: fit-content;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 1px 3px 7px black;
+    margin-top: 7rem;
+}
+
+header{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.emoji {
+    font-size: 70px;
+}
+
+.riddle-area {
+    padding: 5px;
+}
+
+.riddle{
+    padding: 30px;
+}
+
+.answer {
+    display: none;
+    padding: 5px;
+}
+
+.answerbtn {
+    margin-bottom: 16px;
+    font-weight: bold;
+    color: crimson;
+}
+
+.answerbtn:hover + .answer {
+    display: block;
+}
+
+button {
+    background-color: coral;
+    color: azure;
+    border: 1.5px solid azure;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0.3rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    box-shadow: 0.5px 1.5px 2.5px grey;
+    transition-duration: 0.1s;
+    -webkit-transition-duration: 0.1s;
+    transition-property: box-shadow, transform;
+    -webkit-transition-property: box-shadow, transform;
+    cursor: pointer;
+}
+
+button:focus, button:active, button:hover {
+    box-shadow: 1px 4px 7px grey;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
