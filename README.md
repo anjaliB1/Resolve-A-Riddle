@@ -13,4 +13,4 @@ Check out my code to see how it is made.
 [Screenrecord ](https://github.com/anjaliB1/Resolve-A-Riddle/assets/130470021/ac7cdf22-de1b-4f92-8144-aa181390ef74)
 
 ## 👀 Wanna try it out ?
-[Resolve A Riddle](https://anjalib1.github.io/Programming-Jokes/)
+[Resolve A Riddle](https://anjalib1.github.io/Resolve-A-Riddle/)
